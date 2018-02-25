@@ -1,0 +1,8 @@
+{
+  "name": "lev.kazakov.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lev-kazakov/lev.kazakov.com.git",
+  "author": "levk <levk@wix.com>",
+  "license": "MIT"
+}
