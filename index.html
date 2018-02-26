@@ -9,6 +9,7 @@
             height: 100%;
             background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
             overflow: hidden;
+            font-family: 'Jaldi', sans-serif;
         }
 
         #stars2 {
@@ -58,9 +59,9 @@
         #title {
             color: #FFF;
             text-align: center;
-            font-family: 'Jaldi', sans-serif;
             font-weight: 400;
         }
+
         #title div {
             font-size: 40px;
             letter-spacing: 5px;
@@ -68,6 +69,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+
         #title a {
             font-size: 50px;
             font-weight: 700;
@@ -84,6 +86,17 @@
             left: 50%;
 
             margin: -285px 0 0 -320px;
+        }
+
+        #credits {
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            color: #587591;
+        }
+
+        #credits a {
+            color: #587591;
         }
 
         @keyframes animStar {
@@ -104,8 +117,11 @@
         <div>Your Conference's Node.js slot</div>
         <div><a target="_blank" href="mailto:lev.kazakov@email.com">Inquire!</a></div>
     </div>
-    <br />
+    <br/>
     <div id="player"></div>
+</div>
+<div id="credits">
+    styling <a target="_blank" href="https://codepen.io/saransh/pen/BKJun">credits</a>
 </div>
 <script>
   var tag = document.createElement('script');
